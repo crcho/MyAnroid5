@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:text="뒤로가기"
+        />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text= "Celebrity"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/singer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text= "아이유"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp"
+        android:weightSum="1"
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text= "작사"
+            android:textStyle="bold"
+            android:layout_weight="0.5"
+            android:gravity="end"
+            />
+
+        <TextView
+            android:id="@+id/lyricist"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text= "아이유"
+            android:gravity="start"
+            android:layout_weight="0.5"
+            android:layout_marginStart="20dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp"
+        android:weightSum="1"
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text= "작곡"
+            android:textStyle="bold"
+            android:layout_weight="0.5"
+            android:gravity="end"
+            />
+
+        <TextView
+            android:id="@+id/melodizer"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Ryan S"
+            android:gravity="start"
+            android:layout_weight="0.5"
+            android:layout_marginStart="20dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp"
+        android:weightSum="1"
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text= "장르"
+            android:textStyle="bold"
+            android:layout_weight="0.5"
+            android:gravity="end"
+            />
+
+        <TextView
+            android:id="@+id/genre"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="댄스"
+            android:gravity="start"
+            android:layout_weight="0.5"
+            android:layout_marginStart="20dp"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>

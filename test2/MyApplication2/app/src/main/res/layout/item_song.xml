@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_weight="1">
+
+    <TextView
+        android:id="@+id/rank"
+        tools:text="1"
+        android:layout_width="30dp"
+        android:layout_height="match_parent"
+        android:gravity="center"/>
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        tools:src="@drawable/celebrity"
+        />
+
+    <TextView
+        android:id="@+id/song_name"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.6"
+        android:gravity="center_vertical|start"
+        android:paddingStart="10dp"
+        tools:text="Celebrity"
+        android:maxLines="1"
+        android:ellipsize="end"
+        />
+
+    <TextView
+        android:id="@+id/singer"
+        android:layout_width="0dp"
+        android:layout_weight="0.4"
+        android:layout_height="match_parent"
+        android:layout_gravity="end"
+        android:gravity="end|center"
+        android:paddingEnd="10dp"
+        tools:text="아이유"
+        android:maxLines="1"
+        android:ellipsize="end"
+        />
+
+
+</LinearLayout>
